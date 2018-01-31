@@ -2,7 +2,7 @@
 
 Esse é o repositório para a matéria de Blockchain & Data Science aplicados ao Direito e à sociedade ofertada pela Faculdade de Direito da Universidade de Brasília no 1/2018. 
 Nosso objetivo é introduzir os alunos à tecnologia por trás das já famosas criptomoedas, como o Bitcoin, o Ethereum e o Zcash. Além da perspectiva teórica e análise financeira e social do papel exercido pelas chamadas "Altcoins", também introduziremos aspectos práticos de se lidar com elas, desde comprar e vender em sites online(exchanges) até observar o funcionamento de uma rede blockchain local nos computadores dos participantes.
-Além disso, haverá um módulo dedicado à Ciência de Dados, com foco nos usos pertinentes a área do Direito e a abordagem de se basear em dados para promover discussões jurídicas baseadas e respaldadas em dados.
+Além disso, haverá um módulo dedicado à Ciência de Dados, com foco nos usos pertinentes a área do Direito e a abordagem de se basear em dados para promover discussões jurídicas.
 
 # Aulas
 
