@@ -22,7 +22,16 @@ Nessa aula, abordaremos os seguintes tópicos:
 - Rodar um full-node bitcoin
 - Visualizar broadcasting de transações, tentativas de mineração/validação
 
-[Repositório aula 1](https://github.com/teogenesmoura/lawBlockchainClass/tree/master/aula2)
+[Repositório aula 2](https://github.com/teogenesmoura/lawBlockchainClass/tree/master/aula2)
+
+### Aula 3
+
+Nessa aula, abordaremos os seguintes tópicos:
+
+- Basico sobre criptografia
+- Hash
+
+[Repositório aula 3](https://github.com/teogenesmoura/lawBlockchainClass/tree/master/aula3)
 
 # Contribuindo
 
