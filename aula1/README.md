@@ -92,4 +92,8 @@ para isso, clique no seu nome, no canto superior direito da tela e em seguida em
 
 ![Sacar2](https://lh6.googleusercontent.com/Ukwr6hItWocuBpogtYwUYR9WUvJ40hJF4rEB6VNfzBUiTlePbEqV7HVc2dpjEw2j8Dr8rZLGMzkKirfMIfp_FdSg6bdgnFEuXf39Vi1jK-LSU0ytbbAJSzjWlY5589FyCe5Ig8I)
 
+### Visualizar transações
+
+https://blockexplorer.com/blocks
+
 
