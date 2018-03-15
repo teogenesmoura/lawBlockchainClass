@@ -11,4 +11,9 @@ Nessa aula, abordaremos os seguintes tópicos:
 
 ### Criar wallet
 
-Wallet é o equivalente em Blockchain da sua carteira digital, aonde serão armazenadas as transações que já aconteceram na história da existência dela
+Wallet é o equivalente em Blockchain da sua carteira digital, aonde serão armazenadas as transações que já aconteceram na história da existência dela. Hoje, criaremos uma carteira no MercadoBitcoin.com.br.
+
+### Cadastro
+
+1 - Acesse https://www.mercadobitcoin.com.br/ e clique em 'Cadastre-se'.
+![Tela de Cadastro](https://ibb.co/gDPQvH "Tela de Cadastro")
