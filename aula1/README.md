@@ -15,7 +15,8 @@ Wallet é o equivalente em Blockchain da sua carteira digital, aonde serão arma
 
 ### Cadastro
 
-1 - Acesse https://www.mercadobitcoin.com.br/ e clique em 'Cadastre-se'.
+1 - Acesse https://www.mercadobitcoin.com.br/
+2 -  Clique em 'Cadastre-se'.
 
 
 ![Tela de Cadastro](https://i.imgur.com/wQqYmCE.png "Tela de Cadastro")
