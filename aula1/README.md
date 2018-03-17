@@ -111,7 +111,13 @@ https://blockexplorer.com/blocks
 ### Entrega
 
 Para este kit, poste no canal #entregaKits do nosso slack as seguintes informações:
+
+
 Nome
+
+
 Matrícula
+
+
 Endereço da sua carteira bitcoin criada durante a execução do kit
 
