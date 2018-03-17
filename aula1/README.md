@@ -89,11 +89,29 @@ para isso, clique no seu nome, no canto superior direito da tela e em seguida em
 
 16 - insira suas informaçoes de conta e clique em solicitar saque
 
-
 ![Sacar2](https://lh6.googleusercontent.com/Ukwr6hItWocuBpogtYwUYR9WUvJ40hJF4rEB6VNfzBUiTlePbEqV7HVc2dpjEw2j8Dr8rZLGMzkKirfMIfp_FdSg6bdgnFEuXf39Vi1jK-LSU0ytbbAJSzjWlY5589FyCe5Ig8I)
+
+### Endereço da carteira
+
+1 - Na página principal do Mercado Bitcoin, após efetuado o login, clique em "Receber"
+
+2 - Na tela a seguir, o endereço mostrado é o endereço da sua carteira:
+
+![Receber](https://i.imgur.com/hceilKz.png)
+
+Neste caso, o endereço da carteira é:
+
+12nMv7wTJ5dzoeuqRaZ2JgZRoLLKShy9UW
+
 
 ### Visualizar transações
 
 https://blockexplorer.com/blocks
 
+### Entrega
+
+Para este kit, poste no canal #entregaKits do nosso slack as seguintes informações:
+Nome
+Matrícula
+Endereço da sua carteira bitcoin criada durante a execução do kit
 
