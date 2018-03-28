@@ -52,10 +52,10 @@ Substitua ENDEREÇO_CARTEIRA pelo endereço da sua carteira gerado no passo ante
 
       btc_walletinfo
       
-      Informações sobre a carteira:
-        balance => "saldo da carteira"
-        unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
-        immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
+Informações sobre a carteira:
+  balance => "saldo da carteira"
+  unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
+  immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
 
 #### Transfira bitcoins para outra carteira
 
