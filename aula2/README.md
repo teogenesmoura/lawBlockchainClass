@@ -9,20 +9,20 @@ Nessa aula, abordaremos os seguintes tópicos:
 
 ### Docker
 
-#### 1 Faça o download do Docker Community Edition e instale-o
+#### Faça o download do Docker Community Edition e instale-o
       https://www.docker.com/community-edition
 
-#### 2 Faça o download no github do projeto da aula 2
+#### Faça o download no github do projeto da aula 2
       https://github.com/teogenesmoura/lawBlockchainClass
 
-#### 3 Descompacte projeto
+#### Descompacte projeto
 
-#### 4 Abra um terminal e entre na pasta do projeto
+#### Abra um terminal e entre na pasta do projeto
     Utilize o comando cd para navegar entre os diretórios
     Sumpondo que o arquivo foi descompactado na pasta Downloads utilize o comando: 
           cd ~/Downloads/lawBlockchainClass/aula2
 
-#### 5 No diretório ~/Downloads/lawBlockchainClass/aula2 execute os comandos:
+#### No diretório ~/Downloads/lawBlockchainClass/aula2 execute os comandos:
           make build
           make satoshi_shell
   
@@ -31,30 +31,30 @@ Nessa aula, abordaremos os seguintes tópicos:
 ### Executando um fullnode em uma rede bitcoin-regtest
 
 
-#### 1 Inicie o fullnode
+#### Inicie o fullnode
 
-Execute os seguintes comandos:
+    Execute os seguintes comandos:
   
-  btc_start
-  btc_con
+      btc_start
+      btc_con
 
-#### 2 Crie uma carteira
+#### Crie uma carteira
 
-  btc_walletcreate
+      btc_walletcreate
 
-#### 3 "Minere" alguns bitcoins
+#### "Minere" alguns bitcoins
   
-  btc_generate ENDEREÇO_CARTEIRA
+      btc_generate ENDEREÇO_CARTEIRA
   
 Substitua ENDEREÇO_CARTEIRA pelo endereço da sua carteira gerado no passo anterior
 
-#### 4 Verifique seus bitcoins
+#### Verifique seus bitcoins
 
-  btc_walletinfo
+      btc_walletinfo
 
-#### 5 Transfira bitcoins para outra carteira
+#### Transfira bitcoins para outra carteira
 
-  btc_tranfer ENDEREÇO_CARTEIRA
+      btc_tranfer ENDEREÇO_CARTEIRA
 
 Substitua ENDEREÇO_CARTEIRA pelo endereço da carteira que receberá os bitcoins
 
