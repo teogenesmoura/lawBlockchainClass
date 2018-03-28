@@ -33,22 +33,28 @@ Nessa aula, abordaremos os seguintes tópicos:
 
 #### Inicie o fullnode
 
-    Execute os seguintes comandos:
+Execute os seguintes comandos:
   
       btc_start
       btc_con
 
 #### Crie uma carteira
 
+Execute o seguinte comando:
+
       btc_walletcreate
 
 #### "Minere" alguns bitcoins
-  
+
+Execute o seguinte comando:
+      
       btc_generate WALLET_ADDR
   
 Substitua WALLET_ADDR pelo endereço da sua carteira gerado no passo anterior
 
 #### Verifique seus bitcoins
+
+Execute o seguinte comando:
 
       btc_walletinfo
       
@@ -59,6 +65,8 @@ Informações sobre a carteira:
     - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
 
 #### Transfira bitcoins para outra carteira
+
+Execute o seguinte comando:
 
       btc_tranfer WALLET_ADDR
 
