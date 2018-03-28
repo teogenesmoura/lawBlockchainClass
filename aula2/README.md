@@ -19,7 +19,7 @@ Nessa aula, abordaremos os seguintes tópicos:
 
 #### Abra um terminal e entre na pasta do projeto
     Utilize o comando cd para navegar entre os diretórios
-    Sumpondo que o arquivo foi descompactado na pasta Downloads utilize o comando: 
+    Supondo que o arquivo foi descompactado na pasta Downloads utilize o comando: 
           cd ~/Downloads/lawBlockchainClass/aula2
 
 #### No diretório ~/Downloads/lawBlockchainClass/aula2 execute os comandos:
@@ -44,24 +44,25 @@ Nessa aula, abordaremos os seguintes tópicos:
 
 #### "Minere" alguns bitcoins
   
-      btc_generate ENDEREÇO_CARTEIRA
+      btc_generate WALLET_ADDR
   
-Substitua ENDEREÇO_CARTEIRA pelo endereço da sua carteira gerado no passo anterior
+Substitua WALLET_ADDR pelo endereço da sua carteira gerado no passo anterior
 
 #### Verifique seus bitcoins
 
       btc_walletinfo
       
 Informações sobre a carteira:
-  balance => "saldo da carteira"
-  unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
-  immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
+    
+    - balance => "saldo da carteira"
+    - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
+    - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
 
 #### Transfira bitcoins para outra carteira
 
-      btc_tranfer ENDEREÇO_CARTEIRA
+      btc_tranfer WALLET_ADDR
 
-Substitua ENDEREÇO_CARTEIRA pelo endereço da carteira que receberá os bitcoins
+Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
 
 
 
@@ -81,16 +82,16 @@ Substitua ENDEREÇO_CARTEIRA pelo endereço da carteira que receberá os bitcoin
 
 #### btc_walletinfo
     Informações sobre a carteira:
-      balance => "saldo da carteira"
-      unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
-      immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
+      - balance => "saldo da carteira"
+      - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
+      - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
 
 #### btc_walletaddr
     Endereço da carteira
 
-#### btc_transfer ADDR
+#### btc_transfer WALLET_ADDR
     Tranfere bitcoins para um endereço
-    Substitua ADDR pelo endereço da carteira que irá receber os bitcoins
+    Substitua WALLET_ADDR pelo endereço da carteira que irá receber os bitcoins
 
 #### btc_generate WALLET_ADDR
     Gera alguns bitcoins para uma carteira
