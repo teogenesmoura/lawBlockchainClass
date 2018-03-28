@@ -16,12 +16,12 @@ RUN echo "rpcuser=test\nrpcpassword=test\n" > ~/.bitcoin/bitcoin.conf
 RUN echo "alias btc='bitcoin-cli -regtest'" >> ~/.bash_aliases
 RUN echo "alias btc_start='bitcoind -regtest -daemon -printtoconsole'" >> ~/.bash_aliases
 RUN echo "alias btc_con='bitcoin-cli -regtest addnode 192.168.0.145:18444 onetry'" >> ~/.bash_aliases
-RUN echo "alias getpeerinfo='bitcoin-cli -regtest getpeerinfo'" >> ~/.bash_aliases
-RUN echo "alias walletcreate='bitcoin-cli -regtest getnewaddress'" >> ~/.bash_aliases
-RUN echo "alias wallet='bitcoin-cli -regtest getwalletinfo'" >> ~/.bash_aliases
-RUN echo "alias walletaddr='bitcoin-cli -regtest listaddressgroupings'" >> ~/.bash_aliases
-RUN echo "alias send='bitcoin-cli -regtest sendtoaddress'" >> ~/.bash_aliases
-RUN echo "alias generate='bitcoin-cli -regtest generatetoaddress 1000'" >> ~/.bash_aliases
+RUN echo "alias btc_networkinfo='bitcoin-cli -regtest getpeerinfo'" >> ~/.bash_aliases
+RUN echo "alias btc_walletcreate='bitcoin-cli -regtest getnewaddress'" >> ~/.bash_aliases
+RUN echo "alias btc_walletinfo='bitcoin-cli -regtest getwalletinfo'" >> ~/.bash_aliases
+RUN echo "alias btc_walletaddr='bitcoin-cli -regtest listaddressgroupings'" >> ~/.bash_aliases
+RUN echo "alias btc_transfer='bitcoin-cli -regtest sendtoaddress'" >> ~/.bash_aliases
+RUN echo "alias btc_generate='bitcoin-cli -regtest generatetoaddress 2'" >> ~/.bash_aliases
 
 
 
