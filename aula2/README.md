@@ -1,4 +1,4 @@
-# Aula 1
+# Aula 2 
 
 Nessa aula, abordaremos os seguintes tópicos:
 - Rodar um full-node bitcoin
@@ -111,7 +111,7 @@ Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
 
 
 
-##  Para mais detalhes sobre bitcoin
+##  Para mais detalhes sobre como o bitcoin funciona 
 https://github.com/rqtx/Blockchain-study/blob/master/Estudo%20sobre%20blockchain.pdf
 
 
