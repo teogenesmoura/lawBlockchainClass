@@ -62,7 +62,7 @@ Informações sobre a carteira:
     
     - balance => "saldo da carteira"
     - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
-    - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
+    - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após ser incluido no blockchain
 
 #### Transfira bitcoins para outra carteira
 
@@ -105,7 +105,14 @@ Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
     Gera alguns bitcoins para uma carteira
     Substitua WALLET_ADDR pelo endereço da wallet que deseja transferir os bitcoins gerados      
 
-# OBS
+
+
+
+
+
+
+##  Para mais detalhes sobre bitcoin
+https://github.com/rqtx/Blockchain-study/blob/master/Estudo%20sobre%20blockchain.pdf
 
 
 
