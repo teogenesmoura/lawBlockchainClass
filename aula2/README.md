@@ -1,5 +1,4 @@
 # Aula 2 
-[comment]: <> Versão 0.1
 
 Nessa aula, abordaremos os seguintes tópicos:
 - Rodar um full-node bitcoin
@@ -11,21 +10,27 @@ Nessa aula, abordaremos os seguintes tópicos:
 ### Configuração
 
 1. Instale Docker Community Edition
+      
       https://www.docker.com/community-edition
       
 
-2. Faço a instalação do Bash
+2. Faça a instalação do Bash
+      
       https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 
 3. Faça o download no github do projeto da aula 2
+      
       https://github.com/teogenesmoura/lawBlockchainClass
 
 4. Abra um terminal bash e entre na pasta do projeto
-    Utilize o comando cd para navegar entre os diretórios
+    
+    Utilize o comando cd para navegar entre os diretórios.
     Supondo que o arquivo foi descompactado na pasta Downloads utilize o comando: 
+          
           cd ~/Downloads/lawBlockchainClass/aula2
 
 5. No diretório ~/Downloads/lawBlockchainClass/aula2 execute os comandos:
+          
           make build
           make satoshi
 
@@ -42,7 +47,7 @@ Repita os passos 4 e 5 em outro terminal e substitua o comando make satoshi por 
       
       btc addnode IP onetry
 
-Substitua IP pelo ip do peer.
+      Substitua IP pelo ip do peer.
 
 3. Criando uma carteira
 
@@ -52,7 +57,7 @@ Substitua IP pelo ip do peer.
       
       btc_generate WALLET_ADDR
   
-Substitua WALLET_ADDR pelo endereço da sua carteira gerado em 3.
+      Substitua WALLET_ADDR pelo endereço da sua carteira gerado em 3.
 
 5. Verificando seu saldo de bitcoins
 
@@ -69,7 +74,7 @@ Informações sobre a carteira:
 
       btc_tranfer WALLET_ADDR
 
-Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
+      Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
 
 
 
@@ -103,5 +108,3 @@ Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
 - btc_generate WALLET_ADDR
     Gerar alguns bitcoins para uma carteira
     Substitua WALLET_ADDR pelo endereço da wallet que deseja transferir os bitcoins gerados
-
-[comment]: <> EOF
