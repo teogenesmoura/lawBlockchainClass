@@ -1,4 +1,5 @@
 # Aula 2 
+[comment]: <> Versão 0.1
 
 Nessa aula, abordaremos os seguintes tópicos:
 - Rodar um full-node bitcoin
@@ -7,54 +8,53 @@ Nessa aula, abordaremos os seguintes tópicos:
 
 ## Rede bitcoin-regtest
 
-### Docker
+### Configuração
 
-#### Faça o download do Docker Community Edition e instale-o
+1. Instale Docker Community Edition
       https://www.docker.com/community-edition
+      
 
-#### Faça o download no github do projeto da aula 2
+2. Faço a instalação do Bash
+      https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
+
+3. Faça o download no github do projeto da aula 2
       https://github.com/teogenesmoura/lawBlockchainClass
 
-#### Descompacte projeto
-
-#### Abra um terminal e entre na pasta do projeto
+4. Abra um terminal bash e entre na pasta do projeto
     Utilize o comando cd para navegar entre os diretórios
     Supondo que o arquivo foi descompactado na pasta Downloads utilize o comando: 
           cd ~/Downloads/lawBlockchainClass/aula2
 
-#### No diretório ~/Downloads/lawBlockchainClass/aula2 execute os comandos:
+5. No diretório ~/Downloads/lawBlockchainClass/aula2 execute os comandos:
           make build
-          make satoshi_shell
-  
-  Após esses passos iremos estar em um terminal ubuntu como usuário root no host satoshi
+          make satoshi
 
-### Executando um fullnode em uma rede bitcoin-regtest
+Após esses passos iremos estar em um terminal ubuntu como usuário root no host satoshi.
+Repita os passos 4 e 5 em outro terminal e substitua o comando make satoshi por make nakamoto.
 
+### Utilizando a rede bitcoin-regtest
 
-#### Inicie o fullnode
-
-Execute os seguintes comandos:
-  
+1. Iniciando um fullnode
+      
       btc_start
-      btc_con
 
-#### Crie uma carteira
+2. Iniciando uma conexão com um peer da rede:
+      
+      btc addnode IP onetry
 
-Execute o seguinte comando:
+Substitua IP pelo ip do peer.
+
+3. Criando uma carteira
 
       btc_walletcreate
 
-#### "Minere" alguns bitcoins
-
-Execute o seguinte comando:
+4. "Minere" alguns bitcoins
       
       btc_generate WALLET_ADDR
   
-Substitua WALLET_ADDR pelo endereço da sua carteira gerado no passo anterior
+Substitua WALLET_ADDR pelo endereço da sua carteira gerado em 3.
 
-#### Verifique seus bitcoins
-
-Execute o seguinte comando:
+5. Verificando seu saldo de bitcoins
 
       btc_walletinfo
       
@@ -62,11 +62,10 @@ Informações sobre a carteira:
     
     - balance => "saldo da carteira"
     - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
-    - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após ser incluido no blockchain
+    - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após ser incluído no blockchain. (Transações CoinBase)
 
-#### Transfira bitcoins para outra carteira
+6. Transferindo bitcoins para outra carteira
 
-Execute o seguinte comando:
 
       btc_tranfer WALLET_ADDR
 
@@ -76,45 +75,33 @@ Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
 
 ### Comandos
 
-#### btc_start
+- btc_start
     Inicia um fullnode.
 
-#### btc_con 
-    Inicia conexão com um peer inicial da rede P2P
+- btc_con 
+    Inicia conexão com o peer inicial da rede P2P
 
-#### btc_networkinfo
+- btc_networkinfo
     Informação sobre peers conectados
 
-#### btc_walletcreate
+- btc_walletcreate
     Cria uma nova carteira bitcoin. Após executar o comando será mostrado o endereço da carteira
 
-#### btc_walletinfo
+- btc_walletinfo
     Informações sobre a carteira:
       - balance => "saldo da carteira"
       - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
       - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
 
-#### btc_walletaddr
+- btc_walletaddr
     Endereço da carteira
 
-#### btc_transfer WALLET_ADDR
-    Tranfere bitcoins para um endereço
+- btc_transfer WALLET_ADDR
+    Transferir bitcoins para um endereço
     Substitua WALLET_ADDR pelo endereço da carteira que irá receber os bitcoins
 
-#### btc_generate WALLET_ADDR
-    Gera alguns bitcoins para uma carteira
-    Substitua WALLET_ADDR pelo endereço da wallet que deseja transferir os bitcoins gerados      
+- btc_generate WALLET_ADDR
+    Gerar alguns bitcoins para uma carteira
+    Substitua WALLET_ADDR pelo endereço da wallet que deseja transferir os bitcoins gerados
 
-
-
-
-
-
-
-##  Para mais detalhes sobre como o bitcoin funciona 
-https://github.com/rqtx/Blockchain-study/blob/master/Estudo%20sobre%20blockchain.pdf
-
-
-
-    
-
+[comment]: <> EOF
