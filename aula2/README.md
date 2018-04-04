@@ -35,9 +35,12 @@ Nessa aula, abordaremos os seguintes tópicos:
           make satoshi
 
 Após esses passos iremos estar em um terminal ubuntu como usuário root no host satoshi.
+
 Repita os passos 4 e 5 em outro terminal e substitua o comando make satoshi por make nakamoto.
 
 ### Utilizando a rede bitcoin-regtest
+
+Utilize os seguintes comandos nos dois terminais.
 
 1. Iniciando um fullnode
       
@@ -63,11 +66,11 @@ Repita os passos 4 e 5 em outro terminal e substitua o comando make satoshi por 
 
       btc_walletinfo
       
-Informações sobre a carteira:
+    Informações sobre a carteira:
     
-    - balance => "saldo da carteira"
-    - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
-    - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após ser incluído no blockchain. (Transações CoinBase)
+      - balance => "saldo da carteira"
+      - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
+      - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após ser incluído no blockchain. (Transações CoinBase)
 
 6. Transferindo bitcoins para outra carteira
 
@@ -81,30 +84,40 @@ Informações sobre a carteira:
 ### Comandos
 
 - btc_start
+    
     Inicia um fullnode.
 
 - btc_con 
+    
     Inicia conexão com o peer inicial da rede P2P
 
 - btc_networkinfo
+    
     Informação sobre peers conectados
 
 - btc_walletcreate
+    
     Cria uma nova carteira bitcoin. Após executar o comando será mostrado o endereço da carteira
 
 - btc_walletinfo
+    
     Informações sobre a carteira:
       - balance => "saldo da carteira"
       - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
       - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
 
 - btc_walletaddr
+    
     Endereço da carteira
 
 - btc_transfer WALLET_ADDR
-    Transferir bitcoins para um endereço
-    Substitua WALLET_ADDR pelo endereço da carteira que irá receber os bitcoins
+    
+    Transferir bitcoins para um endereço.
+
+    Substitua WALLET_ADDR pelo endereço da carteira que irá receber os bitcoins.
 
 - btc_generate WALLET_ADDR
-    Gerar alguns bitcoins para uma carteira
-    Substitua WALLET_ADDR pelo endereço da wallet que deseja transferir os bitcoins gerados
+    
+    Gerar alguns bitcoins para uma carteira.
+
+    Substitua WALLET_ADDR pelo endereço da wallet que deseja transferir os bitcoins gerados.
