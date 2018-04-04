@@ -102,6 +102,7 @@ Utilize os seguintes comandos nos dois terminais.
 - btc_walletinfo
     
     Informações sobre a carteira:
+
       - balance => "saldo da carteira"
       - unconfirmed_balance => total de bitcoins das transasões que ainda não foram confirmadas
       - immature_balance => total de bitcoins que foram "dados" por encontrar um bloco. Só podem ser utilizados depois que 100 blocos forem minerados após sua inclusão no blockchain
