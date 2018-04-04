@@ -44,27 +44,27 @@ Utilize os seguintes comandos nos dois terminais.
 
 1. Iniciando um fullnode
       
-      btc_start
+      `btc_start`
 
 2. Iniciando uma conexão com um peer da rede:
       
-      btc addnode IP onetry
+      `btc addnode IP onetry` 
 
       Substitua IP pelo ip do peer.
 
 3. Criando uma carteira
 
-      btc_walletcreate
+      `btc_walletcreate`
 
 4. "Minere" alguns bitcoins
       
-      btc_generate WALLET_ADDR
+      `btc_generate WALLET_ADDR`
   
       Substitua WALLET_ADDR pelo endereço da sua carteira gerado em 3.
 
 5. Verificando seu saldo de bitcoins
 
-      btc_walletinfo
+      `btc_walletinfo`
       
     Informações sobre a carteira:
     
@@ -75,7 +75,7 @@ Utilize os seguintes comandos nos dois terminais.
 6. Transferindo bitcoins para outra carteira
 
 
-      btc_tranfer WALLET_ADDR
+      `btc_tranfer WALLET_ADDR`
 
       Substitua WALLET_ADDR pelo endereço da carteira que receberá os bitcoins
 
